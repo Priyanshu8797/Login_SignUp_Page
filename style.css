@@ -1,0 +1,56 @@
+h2{
+    text-align: center;
+    font-size: 35px;
+}
+/* .login{
+    text-align: center;
+    font-size: 30px;
+} */
+body {
+    background-color: olivedrab;
+}
+/* form {
+    margin-bottom: 20px;
+} */
+
+.container {
+    width: 400px;              /* Set the width of the container */
+    padding: 20px;             /* Add padding inside the box */
+    margin: 50px auto;         /* Center the box horizontally on the page */
+    border: 2px solid black;   /* Add a border around the box */
+    border-radius: 10px;       /* Optional: Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
+    background-color: #f9f9f9; /* Set a background color */
+}
+.container input,
+    .form-container button {
+        width: 100%;               /* Full-width inputs and button */
+        padding: 10px;             /* Add padding inside inputs */
+        margin-bottom: 15px;       /* Add spacing between elements */
+        border: 1px solid #ccc;    /* Add a border to inputs */
+        border-radius: 5px;        /* Optional: Rounded corners */
+    }
+
+.container button {
+    background-color: #007bff; /* Button background color */
+    color: white;              /* Button text color */
+    border: none;              /* Remove border */
+    cursor: pointer;           /* Pointer cursor on hover */
+}
+
+.container button:hover {
+    font-size: 35px;
+    background-color: #b30006; /* Darker shade on hover */
+}
+
+/* input {
+    height: 27px;;
+    margin: 7px;
+    padding: 2px;
+} */
+
+/* .btn{
+    font-size: 35px;
+    background-color: rgb(35, 171, 105);
+    color: red;
+} */
